@@ -142,3 +142,85 @@ nav a p {
     height: 715px;
     background-position: 0px -155px;
 }
+
+/* Nav Menu Section */
+.menu .menu-nav {
+    background-color: #D4DDDA;
+    height: 100px;
+    display: grid;
+    grid-template-areas: 'menu1 menu2 menu3 drink';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* for buttom active */
+.menu-nav .nav-1 {
+    background-color: #DCE4E7;
+}
+/* end */
+
+.menu-nav .nav-1, .nav-2, .nav-3, .nav-4{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    line-height: 100px;
+    color: black;
+}
+
+.menu-nav .nav-1:hover, .nav-2:hover, .nav-3:hover, .nav-4:hover {
+    background-color: #DCE4E7;
+}
+
+.menu-nav .nav-1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.menu-nav .nav-2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.menu-nav .nav-3 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.menu-nav .nav-4 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+/* Menu Content */
+
+.menu .menu-container {
+    background-color: #DCE4E7;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.menu-container h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.menu-container h3, h5{
+    font-weight: bold;
+}
+
+.menu-container p, h5{
+    margin-bottom: 10px;
+}
