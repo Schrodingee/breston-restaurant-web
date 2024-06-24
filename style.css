@@ -46,8 +46,10 @@ table {
     border-spacing: 0;
 }
 
+/* font */
 .container {
     height: 2000px;
+    font-family: "Montserrat", sans-serif
 }
 
 /* navbar */
