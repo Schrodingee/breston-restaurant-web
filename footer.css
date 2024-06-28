@@ -1,0 +1,14 @@
+/* footer */
+
+footer {
+    background-color: rgb(24, 24, 24);
+    height: 75px;
+}
+
+footer span p {
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
