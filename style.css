@@ -54,59 +54,6 @@ table {
 
 
 
-/* header */
-.header {
-    display: grid;
-    grid-template-areas: 'desc thumb';
-    height: 715px;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    background-color: #EBE9E6;
-}
-
-.header .left-desc {
-    grid-area: desc;
-    margin-top: 100px;
-    padding: 30px;
-}
-
-.header .left-desc h1 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 3rem;
-    margin-bottom: 30px;
-}
-
-.header .left-desc p {
-    font-size: 1.1rem;
-    word-spacing: 5px;
-    margin-bottom: 15px;
-}
-
-.header .left-desc a {
-    display: block;
-    margin-top: 50px;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    border: 2px solid black;
-    width: 150px;
-    height: 30px;
-}
-
-.header .left-desc a p {
-    line-height: 30px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.header .right-thumb {
-    grid-area: thumb;
-    background-image: url(/img/mads-eneqvist-zqiE16q_Ju0-unsplash.jpg);
-    background-size: cover;
-    height: 715px;
-    background-position: 0px -155px;
-}
 
 /* Nav Menu Section */
 .menu .menu-nav {
