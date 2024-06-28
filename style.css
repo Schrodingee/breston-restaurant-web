@@ -52,48 +52,7 @@ table {
     font-family: "Montserrat", sans-serif;
 }
 
-/* navbar */
 
-
-nav {
-    background-color: black;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-}
-
-nav img {
-    transform: scale(70%);
-    position: absolute;
-    top: -9px;
-}
-
-nav a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 20px;
-    padding: 0 10px;
-    border: 2px solid white;
-    height: 40px;
-}
-
-nav a p {
-    text-align: center;
-    line-height: 40px;
-    right: 0;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 0.8rem;
-    font-weight: bold;
-}
 
 /* header */
 .header {
