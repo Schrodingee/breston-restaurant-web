@@ -60,6 +60,7 @@ nav {
     height: 70px;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 5px;
     position: fixed;
     width: 100%;
@@ -81,15 +82,17 @@ nav a {
     margin-right: 20px;
     padding: 0 10px;
     border: 2px solid white;
-    height: 50px;
+    height: 40px;
 }
 
 nav a p {
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     right: 0;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 /* header */
@@ -111,12 +114,12 @@ nav a p {
 .header .left-desc h1 {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 30px;
 }
 
 .header .left-desc p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     word-spacing: 5px;
     margin-bottom: 15px;
 }
@@ -212,12 +215,14 @@ nav a p {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .menu-container h3 {
     font-size: 1.5rem;
+    letter-spacing: 3px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .menu-container h3, h5{
@@ -240,10 +245,10 @@ nav a p {
 }
 
 .form .form-left h1{
-font-weight: bold;
-font-size: 3rem;
-text-transform: uppercase;
-margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .form .form-left p {
@@ -256,7 +261,7 @@ margin-bottom: 30px;
 
 .form-signup #fname, #lname, #email, #Bday, #Aniv {
     width: 350px;
-    height: 20px;
+    height: 15px;
     margin-bottom: 10px;
 }
 
@@ -271,14 +276,14 @@ margin-bottom: 30px;
 
 .info {
     background-color: #D5DDDB;
-    height: 600px;
+    height: 550px;
     display: flex;
 }
 
 .info h2 {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .info-left {
@@ -288,8 +293,7 @@ margin-bottom: 30px;
     grid-template-rows: 130px;
     grid-template-columns: 0.5fr 0.7fr 1fr;
     flex-grow: 3;
-    font-size: 1.2rem;
-    padding-bottom: 90px;
+    font-size: 1rem;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
@@ -392,5 +396,5 @@ footer span p {
     text-align: center;
     line-height: 75px;
     letter-spacing: 2px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
