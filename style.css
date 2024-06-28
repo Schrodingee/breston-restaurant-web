@@ -52,46 +52,6 @@ table {
     font-family: "Montserrat", sans-serif;
 }
 
-
-/* Form (just a placeholder until i can learn php or something that can i use to make a working form)*/
-
-.form {
-    height: 350px;
-    background-color: #EBE9E6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 80px;
-}
-
-.form .form-left h1{
-    font-weight: bold;
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
-
-.form .form-left p {
-    font-size: 1.2rem;
-}
-
-.form-signup label {
-    font-size: 1.3rem;
-}
-
-.form-signup #fname, #lname, #email, #Bday, #Aniv {
-    width: 350px;
-    height: 15px;
-    margin-bottom: 10px;
-}
-
-.form-signup #signup {
-    transform: scale(170%);
-    margin-left: 20px;
-    box-shadow: none;
-    border: 1px solid black;
-}
-
 /* info section */
 
 .info {
